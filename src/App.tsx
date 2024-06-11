@@ -26,6 +26,7 @@ function App() {
         const arr = data.location.url.split('/')
         data.loc_id = arr[arr.length -1]
         setRandomChars((prevChars) => [...prevChars, data]);
+        
     }
 
     useEffect(() => {
