@@ -1,0 +1,80 @@
+.navbar-container {
+     padding: 10px;
+   
+}
+
+.upper-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 2rem;
+}
+
+.upper-nav svg {
+    fill: #333; 
+}
+
+#navigation{
+    width: 35%;
+}
+#navigation-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+#navigation-list li{
+    list-style: none;
+    font-size: large;
+}
+#navigation-list li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#navigation-list li a:hover{
+    color: gold;
+}
+#navigation-list li:last-child a{
+    font-weight: 500;
+    border: 2px solid gold;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+}
+#navigation-list li:last-child a:hover{
+    background-color: gold;
+    color: white;
+}
+.lower-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.lower-nav svg {
+    fill:rgb(245, 245, 245)
+}
+#nav-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 4rem;
+}
+
+.search-bar{
+    padding: 0.75rem 0.5rem;
+    font-size: large;
+    border-radius: 10px;
+    color: gold;
+    font-weight: bolder;
+    border: 2px solid gold;
+}
+.search-bar:focus{
+    outline: none;
+    border: 2px solid gold;
+    background-color: gold;
+    color: white;
+}

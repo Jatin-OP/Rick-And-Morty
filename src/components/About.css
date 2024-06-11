@@ -1,0 +1,23 @@
+.about{
+    background-color: #202329;
+    height: 12rem;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    
+}
+
+.about *{
+    color:#9E9E9E
+}
+.about-char{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+a:hover *{
+    color: gold;
+}
